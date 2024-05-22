@@ -25,7 +25,7 @@ object Netease : BaseHook() {
         fuckTinker()
         HookTools.getApplication {
             val verCode = it.packageManager?.getPackageInfo(it.packageName, 0)?.versionCode ?: 0
-            if (verCode >= 8000041 || it.packageName == "com.hihonor.cloudmusic") {
+            if (verCode >= 8000041 || it.packageName == "com.hihonor.cloudmusic"|| it.packageName == "com.netease.cloudmusic.iot") {
                 dexKitBridge(it.classLoader) { dexKitBridge ->
                     val result = dexKitBridge.findClass {
                         matcher {
