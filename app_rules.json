@@ -390,6 +390,21 @@
       ]
     },
     {
+      "packageName": "com.netease.cloudmusic.iot",
+      "name": "网易云音乐车机版",
+      "rules": [
+        {
+          "startVersionCode": 1000022,
+          "endVersionCode": 2147483647,
+          "excludeVersions": [],
+          "apiVersion": 0,
+          "useApi": false,
+          "getLyricType": 0,
+          "remarks": ""
+        }
+      ]
+    },
+    {
       "packageName": "cn.aqzscn.stream_music",
       "name": "音流",
       "rules": [
